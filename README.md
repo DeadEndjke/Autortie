@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Общее описание решения
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src='src\assets\logo.svg'>
 
-## Available Scripts
+Authortie является Pet-проектом, в котором реализовано регистрация пользователя и вход в аккаунт
 
-In the project directory, you can run:
+# Сценарий сборки и запуска проекта
 
-### `npm start`
+`npm i react-router-dom`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>&nbsp;</p>
 
-### `npm test`
+# Общее описание логики работы решения
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Десктоп версия
 
-### `npm run build`
+### Баннер
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src='public\1.png'>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Блок как это работает
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src='public\2.png'>
 
-### `npm run eject`
+### Блок Сообщество
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src='public\3.png'>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Футер
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src='public\4.png'>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Мобильная версия
 
-## Learn More
+### Баннер
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src='public\mobile1.png'>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Блок как это работает
 
-### Code Splitting
+<img src='public\mobile2.png'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Блок Сообщество
 
-### Analyzing the Bundle Size
+<img src='public\mobile3.png'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Футер
 
-### Making a Progressive Web App
+<img src='public\mobile4.png'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Примеры использования
 
-### Advanced Configuration
+### Desktop
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[![Desktop](public\1.png)](https://youtu.be/P2lI-FMDwtI)
 
-### Deployment
+### Mobile
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Mobile](public\mobile1.png)](https://www.youtube.com/watch?v=vnh0rpUPYec)

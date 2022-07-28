@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Block from "./Components/Block/Block";
+import Community from "./Components/Community/Community";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import HowItWorksBlock from "./Components/HowItWorksBlock/HowItWorksBlock";
+import LoginRegisterForm from "./Components/LoginRegisterForm/LoginRegisterForm";
 
 function App() {
+  const [header, setHeader] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header isloged={header} />
+        <Routes>
+          <Route
+            path="/login"
+            element={
+              <LoginRegisterForm changeHeader={(header) => setHeader(header)} />
+            }
+          />
+        </Routes>
+        <Block />
+        <HowItWorksBlock />
+        <Community />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
